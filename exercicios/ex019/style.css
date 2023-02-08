@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(131, 243, 127);
+    font-family: sans-serif;
+}
+h1{
+    color: rgb(4, 100, 104);
+}
+#principal{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+h2{
+    color: darkblue;
+}
+
+.basico{
+    color: yellow;
+}
+.nada{
+    background-color: aliceblue;
+}

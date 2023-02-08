@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .olha{
+            display: inline-block;
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        .olha:hover{
+            background-color: aqua;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #d4:hover >p {
+            color: red;
+            display: block;
+        }
+        #d4 > p{
+            display: none;
+        }
+        #d4{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo classe</h1>
+    <div class="olha">01</div>
+    <div class="olha">02</div>
+    <div class="olha">03</div>
+    <div id="d4"> 
+        Passe o mouse AQUI
+        <p>Texto escondido</p>
+    </div>
+</body>
+</html>
